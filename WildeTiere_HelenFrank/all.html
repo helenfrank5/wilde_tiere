@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alle Karten</title>
+    <!-- Schrift -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Schrift -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url('./images/hintergrund1.jpg');
+        }
+    </style>
+
+    <!-- Willkommens-Overlay -->
+    <div id="welcome-overlay">
+        <div class="welcome-box">
+            <h1>Willkommen zur Quartettkartenset: Wilde Tiere</h1>
+            <p>Viel Spaß beim Durchschauen.</p>
+            <button id="continue-button" class="weiter-button">Weiter</button>
+        </div>
+    </div>
+
+
+
+    <!-- Kopfbereich mit Logo und Navigation -->
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo" />
+        </div>
+        <nav class="nav">
+            <a href="all.html">Karten</a>
+            <a href="filter.html">Filter</a>
+        </nav>
+        <button id="sound-toggle" class="sound-button">🔊 Sound An</button>
+    </header>
+
+    <!-- Kartenanzeige -->
+    <section id="all">
+        <div id="wrapper"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="hfglogo">
+            <img src="images/hfg.png" alt="HFG Logo" />
+        </div>
+        <div class="footer-nav">
+            <p>&copy; 2024 Helen Frank für Programmiersprachen IG3
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

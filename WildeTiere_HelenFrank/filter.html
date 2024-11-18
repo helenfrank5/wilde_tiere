@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Karten</title>
+    <!-- Schrift -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Schrift -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url('./images/hintergrund1.jpg');
+        }
+    </style>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo" />
+        </div>
+        <nav class="nav">
+            <a href="all.html">Karten</a>
+            <a href="filter.html">Filter</a>
+        </nav>
+    </header>
+
+    <!-- Filter-Bereich -->
+    <section id="filter">
+        <div id="filter-wrapper">
+            <!-- Dropdown zum Sortieren der Karten -->
+            <div id="sort-options">
+                <select id="sort-select">
+                    <option value="id">ID Standart</option>
+                    <option value="weight">Gewicht</option>
+                    <option value="length">Länge</option>
+                    <option value="age">Alter</option>
+                    <option value="speed">Geschwindigkeit</option>
+                </select>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Kartenbereich -->
+    <section id="wrapper"></section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="hfglogo">
+            <img src="images/hfg.png" alt="HFG Logo" />
+        </div>
+        <div class="footer-nav">
+            <p>&copy; 2024 Helen Frank für Programmiersprachen IG3
+            </p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="filter-script.js"></script> 
+</body>
+
+</html>

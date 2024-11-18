@@ -1,0 +1,90 @@
+
+@media (max-width: 768px) {
+
+    #wrapper {
+        width: 100%;
+        padding: 10px;
+        padding-top: 120px; 
+    }
+
+    .card-wrapper {
+        display: block; 
+        margin-bottom: 20px;
+        opacity: 1;
+    }
+
+    .card-content {
+        width: 100%; 
+        height: auto;
+    }
+
+    /* Sound-Button ausblenden */
+    #sound-toggle {
+        display: none;
+    }
+
+    /* Filter ausblenden */
+    #filter-wrapper {
+        display: none;
+    }
+
+    /* Willkommens-Overlay anpassen */
+    .welcome-box {
+        padding: 50px 40px;
+        max-width: 90%;
+    }
+
+    .welcome-box h1 {
+        font-size: 20px;
+    }
+
+    .welcome-box p {
+        font-size: 14px;
+    }
+
+    /* Header und Navigation anpassen */
+    .header {
+        justify-items: right;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .logo img {
+        max-height: 50px; 
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav a {
+        padding: 5px;
+        font-size: 14px;
+    }
+    
+    /* Footer anpassen */
+    #footer {
+        grid-template-columns: 1fr;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .hfglogo {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .hfglogo img {
+        max-height: 50px;
+    }
+
+    .footer-nav {
+        margin-top: 10px;
+    }
+}
+
